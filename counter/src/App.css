@@ -1,0 +1,23 @@
+.App {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  background-color: rgb(176, 176, 176);
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+button {
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 25px;
+}
