@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  border-radius: 5px;
+  width: 500px;
+  background-color: gray;
+  padding: 25px;
+}
+section button {
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+section p {
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 620px) {
+  section,  section button, section p {
+    justify-content: center;
+    width: 232px;
+  }
+}
